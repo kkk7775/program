@@ -1,3 +1,4 @@
-# print the any message 
-a = "Hello World"
-print(a)
+
+print("India is my country")
+print("Marvellous Infosystems")
+print("Pune Maharashtra")
