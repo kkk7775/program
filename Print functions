@@ -1,0 +1,8 @@
+# First python output with 'Print' functions
+print('Hello World!')
+print('Hi, Python!')
+
+O/P
+
+Hello World!
+Hi, Python!
