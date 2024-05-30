@@ -1,0 +1,12 @@
+# Python version check
+import sys
+print(sys.version) # version control
+print(sys.winver) # [Windows only] version number of the Python DLL
+print(sys.gettrace) # get the global debug tracing function
+print(sys.argv) # keeps the parameters used while running the program we wrote in a list.
+
+o/p
+3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:38:37) [MSC v.1916 64 bit (AMD64)]
+3.11
+<built-in function gettrace>
+['C:\\Users\\Acer11\\anaconda3\\Lib\\site-packages\\ipykernel_launcher.py', '-f', 'C:\\Users\\Acer11\\AppData\\Roaming\\jupyter\\runtime\\kernel-3a3c1656-1e82-43a2-a197-3f87d8115386.json']
