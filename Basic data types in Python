@@ -1,0 +1,21 @@
+# String
+print("Hello, World!")
+# Integer
+print(12)
+# Float
+print(3.14)
+# Boolean
+print(True)
+print(False)
+print(bool(1)) # Output = True
+print(bool(0)) # Output = False
+
+O/P
+
+Hello, World!
+12
+3.14
+True
+False
+True
+False
