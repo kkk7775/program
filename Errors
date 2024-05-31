@@ -1,0 +1,43 @@
+# Print string as error message
+frint('Hello, World!')
+
+O/P
+
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[1], line 2
+      1 # Print string as error message
+----> 2 frint('Hello, World!')
+
+NameError: name 'frint' is not defined
+
+
+
+# Built-in error message
+print('Hello, World!)
+
+O/P
+
+Cell In[2], line 2
+    print('Hello, World!)
+          ^
+SyntaxError: unterminated string literal (detected at line 2)
+
+
+# Print both string and error to see the running order
+print('This string is printed')
+frint('This gives an error message')
+print('This string will not be printed')
+
+O/P
+
+This string is printed
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[3], line 3
+      1 # Print both string and error to see the running order
+      2 print('This string is printed')
+----> 3 frint('This gives an error message')
+      4 print('This string will not be printed')
+
+NameError: name 'frint' is not defined
